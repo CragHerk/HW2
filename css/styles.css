@@ -9,7 +9,7 @@ body {
   text-decoration: none;
   color: #212121;
 }
-.logo-top a:link {
+.logotop a:link {
   color: black;
   text-decoration: none;
   font-family: "raleway";
@@ -24,14 +24,14 @@ body {
 }
 
 .top {
-  border-bottom: 1px;
-  border-color: #ececec;
+  borderbottom: 1px;
+  bordercolor: #ececec;
 }
-.top-links a:link {
+.toplinks a:link {
   color: #757575;
   text-decoration: none;
 }
-.top-links a:hover {
+.toplinks a:hover {
   color: var(--blue);
 }
 
@@ -51,7 +51,7 @@ body {
   color: var(--blue);
 }
 
-.no-bullets {
+.nobullets {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -65,35 +65,35 @@ body {
   margin-left: 532px;
   margin-bottom: 34px;
 }
-.no-bullets > li {
+.nobullets > li {
   display: inline-block;
 }
 
-.project-title {
+.projecttitle {
   font-weight: 700;
   font-size: 18px;
 }
-.project-type {
+.projecttype {
   font-size: 16px;
 }
 .footer {
   color: white;
-  background-color: black;
+  background-color: #2F303A;
   width: 1600px;
   height: 252px;
 }
-.main-portfolio {
+.mainportfolio {
   margin-left: 215px;
   margin-right: 215px;
   margin-top: 94px;
 }
-.contact-bottom {
+.contactbottom {
   font-style: normal;
   margin-left: 215px;
   text-align: left;
 }
 .intro {
-  background-color: #2f303a;
+  backgroundcolor: #2f303a;
   color: white;
   font-weight: 900;
   font-size: 44px;
@@ -104,7 +104,7 @@ body {
   width: 1600px;
   text-align: center;
 }
-.main-index {
+.mainindex {
   margin-left: 215px;
   margin-right: 215px;
 }
@@ -118,18 +118,18 @@ body {
   background-color: var(--blue);
   color: white;
 }
-.contact-bottom-address {
+.contactbottomaddress {
   font-style: normal;
   text-align: left;
 }
-.contact-bottom-links a:link {
+.contactbottomlinks a:link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.contact-bottom-links a:hover {
+.contactbottomlinks a:hover {
   color: var(--blue);
 }
-.logo-bottom {
+.logobottom {
   font-family: "raleway";
   font-weight: 700;
   font-size: 26px;
@@ -137,7 +137,7 @@ body {
   padding-top: 60px;
   margin-bottom: 20px;
 }
-.logo-bottom a {
+.logobottom a {
   text-decoration: none;
   color: white;
 }
