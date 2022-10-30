@@ -1,143 +1,121 @@
 :root {
-  --blue: #2196f3;
+  --brand-color: rgba(33, 33, 33, 1);
+  --light-color: rgba(33, 150, 243, 1);
+  --subtitle-color: rgba(117, 117, 117, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --background-color: rgba(47, 48, 58, 1);
 }
-.blue {
-  color: var(--blue);
-}
+
 body {
-  font-family: "roboto", "Raleway", sans-serif;
-  text-decoration: none;
-  color: #212121;
+  font-family: "Roboto", "Raleway", sans-serif;
+  line-height: 1.5;
 }
-.logotop a:link {
-  color: black;
-  text-decoration: none;
-  font-family: "raleway";
+
+.subtitle {
   font-weight: 700;
-  font-size: 26px;
-  padding-left: 215px;
-  padding-top: 60px;
-  margin-bottom: 20px;
-}
-.logotop a:visited {
-  color: black;
+  font-size: 36px;
 }
 
-.top {
-  borderbottom: 1px;
-  bordercolor: #ececec;
+.caption {
+  color: var(--subtitle-color);
+  font-weight: 400;
+  line-height: 1.5;
 }
-.toplinks a:link {
-  color: #757575;
-  text-decoration: none;
-}
-.toplinks a:hover {
-  color: var(--blue);
-}
-
-.nav {
+.title {
+  font-weight: 700;
   font-size: 16px;
+}
+.name {
   font-weight: 500;
+  font-size: 16px;
 }
-.nav a:link {
-  color: black;
-  text-decoration: none;
-}
-.nav a:visited {
-  color: black;
-  text-decoration: none;
-}
-.nav a:hover {
-  color: var(--blue);
+.text {
+  color: var(--white-color);
+  font-weight: 900;
 }
 
-.nobullets {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.social-link {
+  color: var(--subtitle-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+.social-link:hover,
+.social-link:focus {
+  color: var(--light-color);
 }
 .link {
-  color: black;
-}
-.filters {
-  font-weight: 500;
-  font-size: 16px;
-  margin-left: 532px;
-  margin-bottom: 34px;
-}
-.nobullets > li {
-  display: inline-block;
+  color: var(--brand-color);
+  text-decoration: none;
+  font-weight: 700;
+  cursor: pointer;
+  font-weight: 16px;
 }
 
-.projecttitle {
-  font-weight: 700;
-  font-size: 18px;
+.link:hover {
+  background-color: var(--light-color);
+  color: var(--white-color);
 }
-.projecttype {
-  font-size: 16px;
-}
-.footer {
-  color: white;
-  background-color: #2F303A;
-  width: 1600px;
-  height: 252px;
-}
-.mainportfolio {
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-top: 94px;
-}
-.contactbottom {
-  font-style: normal;
-  margin-left: 215px;
-  text-align: left;
-}
-.intro {
-  backgroundcolor: #2f303a;
-  color: white;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  padding: 200px 452px 280px 452px;
-  margin-bottom: 94px;
-  height: 600px;
-  width: 1600px;
-  text-align: center;
-}
-.mainindex {
-  margin-left: 215px;
-  margin-right: 215px;
-}
-.button {
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "roboto";
-  cursor: pointer;
-}
-.button:hover {
-  background-color: var(--blue);
-  color: white;
-}
-.contactbottomaddress {
-  font-style: normal;
-  text-align: left;
-}
-.contactbottomlinks a:link {
-  color: rgba(255, 255, 255, 0.6);
+.link-black {
+  color: rgba(33, 33, 33, 1);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
 }
-.contactbottomlinks a:hover {
-  color: var(--blue);
+.link-black:hover {
+  color: var(--light-color);
 }
-.logobottom {
-  font-family: "raleway";
+.light {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  padding-left: 215px;
-  padding-top: 60px;
-  margin-bottom: 20px;
+  line-height: 31px;
+  color: var(--light-color);
 }
-.logobottom a {
-  text-decoration: none;
-  color: white;
+.light-black {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--brand-color);
+}
+
+.logo-dark {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--white-color);
+}
+ul {
+  list-style: none;
+  display: inline;
+}
+
+.middle {
+  width: 1600px;
+  height: 300px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--background-color);
+}
+
+.foot {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background-color: var(--background-color);
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  display: flex;
+  justify-content: center;
 }
